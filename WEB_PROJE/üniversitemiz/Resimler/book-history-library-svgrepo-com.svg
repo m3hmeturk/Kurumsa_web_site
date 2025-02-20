@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg fill="#ffff" width="800px" height="800px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+
+<title/>
+
+<g data-name="Layer 31" id="Layer_31">
+
+<path d="M16,15H8a2,2,0,0,0-2,2v8a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V17A2,2,0,0,0,16,15ZM8,25V17h8v8Z"/>
+
+<path d="M32,19H24a2,2,0,0,0-2,2v7a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V21A2,2,0,0,0,32,19Zm-8,9V21h8v7Z"/>
+
+<path d="M51,3V7H37a2,2,0,0,0-2,2v6H21V13a2,2,0,0,0-2-2H5a2,2,0,0,0-2,2V59a2,2,0,0,0,2,2H19a2,2,0,0,0,1-.28A2,2,0,0,0,21,61H35a2,2,0,0,0,1-.28A2,2,0,0,0,37,61H61V3Zm2,2h6v6H53V5Zm0,8h6V51H53ZM5,59V13H19V59Zm16,0V17H35V59Zm16,0V9H51V59Zm16,0V53h6v6Z"/>
+
+<path d="M48,11H40a2,2,0,0,0-2,2v9a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V13A2,2,0,0,0,48,11ZM40,22V13h8v9Z"/>
+
+<rect height="2" width="10" x="7" y="40"/>
+
+<rect height="2" width="10" x="7" y="44"/>
+
+<rect height="2" width="10" x="7" y="48"/>
+
+<rect height="2" width="10" x="23" y="42"/>
+
+<rect height="2" width="10" x="23" y="46"/>
+
+<rect height="2" width="10" x="23" y="50"/>
+
+<rect height="2" width="10" x="39" y="38"/>
+
+<rect height="2" width="10" x="39" y="42"/>
+
+<rect height="2" width="10" x="39" y="46"/>
+
+</g>
+
+</svg>

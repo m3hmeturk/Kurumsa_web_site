@@ -1,0 +1,274 @@
+
+body {
+    margin: 0; /* Kenar boşluklarını sıfırlar */
+    padding: 0;
+    /font-family: Arial, sans-serif; / Yazı tipi */
+    background-size: cover; /* Resmi tam sayfaya uyarlar */
+    background-position: center; /* Resmi merkeze hizalar */
+    background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+    background-attachment: fixed; /* Resmi sabit yapar */
+    overflow-x: hidden;
+}
+
+.amblem {
+    display: flex; /* Flexbox düzeni */
+    align-items: center; /* Dikey hizalama */
+    font-size: 17px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Source Sans Pro", Sans-serif; 
+    text-align: left;
+}
+.amblem img {
+    margin-right: 10px;     /* Yazı ile resim arasındaki boşluk */
+    text-align: right;
+}
+.bilgiler {
+    display: flex;
+    font-size: 17px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 0px 15px 0px 15px;
+    gap: 20px; 
+    font-family: "Source Sans Pro", Sans-serif; 
+    
+}
+.blgler{
+    transition: color 0.5s ease; /* Renk değişiminde yumuşak geçiş efekti */
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    color: inherit; /* Yazı rengini normal bırak */
+}
+.blgler:visited {
+    color: inherit; /* Ziyaret edilmiş linkler için renk sıfırlanır */
+    text-decoration: none; /* Alt çizgi kaldırılır */
+}
+.blgler:hover {
+    color: #C3A800; /* Mouse üzerine gelince yazı rengi */
+    text-decoration: none; /* Alt çizgi kaldırılır */
+ }
+ 
+.icon {
+    display: flex;
+}
+img {
+    color: white;
+}
+.iconlar{
+    display: flex;
+    gap: 40px;
+}
+.üst_bilgiler{
+    display: flex; /* Flex düzeni etkinleştirir */
+    justify-content: space-between; /* Elemanları kenarlara yayar */
+    align-items: center; /* Dikeyde ortalama */
+    padding: 0 200px 0 50px; /* Sağ ve soldan 50px iç boşluk */
+    height: 100px; /* Yükseklik */
+    color: white; /* Yazı rengi */
+    position: fixed; /* Div'i sabitler */
+    width: 100%; /* Genişliği sayfa genişliği yapar */
+    background-color: #0B1526; /* Arka plan rengi */
+    box-sizing: border-box; /* Padding'in genişliğe dahil edilmesini sağlar */   
+    z-index: 10;
+}
+.üst_resim{
+    width: 100%;
+    height: 120px; /* Yüksekliği belirleyin */
+    background-size: cover; /* Resmin tamamını kapsar */
+    /background-position: center; / Ortalar */
+    background-repeat: no-repeat; /* Resmin tekrarlanmamasını sağlar */
+    text-align: center;
+}
+/*uuuu-------------------------------------------------*/
+
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Konteyner */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  /* Bölüm (Hakkımızda ve Yönetim) */
+  .section {
+    flex: 1;
+    background-color: white;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .section h2 {
+    color: #d11a2a;
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  /* Başlık Altındaki Çizgi */
+  .section h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #d11a2a;
+    margin-top: 5px;
+  }
+  
+  /* Liste */
+  .section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .section ul li {
+    margin: 5px 0;
+  }
+  
+ /* Linklerin Varsayılan Rengi ve Hover Efekti */
+.section ul li a {
+    text-decoration: none;
+    color: #aaa; /* Soluk gri renk */
+    font-size: 14px;
+    display: block; /* Linki blok seviyesine çevir */
+    border-bottom: 1px solid #ddd; /* Soluk gri alt çizgi */
+    padding-bottom: 2px; /* Çizgi ile yazı arasında boşluk */
+    transition: color 0.3s ease; /* Renk geçişini yumuşatır */
+  }
+  
+  .section ul li a:hover {
+    color: #d11a2a; /* Hover'da kırmızı renk */
+  }
+
+ 
+  
+/*-------------------------------------------------*/
+.bottombar{
+
+    background-color: midnightblue;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottombar-içerik{
+    color: dimgray;
+    text-decoration: none;
+    align-items: center;
+    text-align: justify;
+}
+.bottombar-içerik:hover{
+    color: white;
+    transition: 0.5s;
+}
+.bottombar-içerik::before{
+    content:'';
+    padding: 1px;
+    background-color: darkgray;
+    margin: 2px;
+}
+.RİMER{
+    
+    background-color: gold;
+    width: 500px;
+    height: 500px;
+    font-size: 15px;
+}
+.RİMER-TEXT{
+    color: midnightblue;
+    font-size: 60px;
+    margin: 0;
+    padding: 10px 0px 0px 40px;
+}
+.RİMER-TEXT-2{
+    color :darkslategray;
+    font-size:30px;
+    margin :0 ;
+    padding: 0px 0px 0px 40px;
+}
+.RİMER-PARAGRAF{
+    color: black;
+    font-size: 15px;
+    padding: 10px 40px 20px 45px;
+}
+
+/*------------------------------------düzenlenecek ---------------------------------------*/
+
+.label-1{
+    margin-left: 40px;
+}
+.label-2
+{
+    margin-left: 116px;
+}
+.label-3{
+    margin-left: 102px;
+}
+.RİMER-input{
+    border-radius: 5px;
+    width: 15%; height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+/*--------------------------------düzenlenecek----------------------------------------------*/
+.rimer-map{
+    display: flex;
+}
+.map{
+    width: 70%;
+    height: 450px;
+}
+.alt-div{
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background-color: #051435;
+}
+.a1-kapı{
+    justify-content: center; 
+    margin: 50px 100px 50px 300px;
+    align-items: center;
+}
+.alt-yazı{
+    display: flex; /* Flexbox düzeni */
+    justify-content: center; 
+    font-size: 15spx;
+    font-family: sans-serif;
+    color: white;
+    margin: 10px;
+    padding: 0;
+    letter-spacing: 7px;
+}
+.alt-yazı2{
+    display: flex; /* Flexbox düzeni */
+    justify-content: center; 
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #6C634A;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+}
+.sosyalHesap{
+    margin: 100px 400px 100px 100px;
+}
+.enAlt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-image: url(/Resimler/arkaPlan.png);
+}
