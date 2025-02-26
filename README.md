@@ -1,1 +1,1 @@
-# Kurumsa_web_site
+# Kurumsal_web_sitesi
